@@ -102,4 +102,6 @@ theme: BlueLake
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/techubx/techubx.github.io.git
+  branch: main
